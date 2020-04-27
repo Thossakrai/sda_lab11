@@ -11,4 +11,18 @@ package builder;/*
 /** Concrete builder for a meal with a burger, fries, and a cola. */
 public class BurgerMealBuilder extends MealBuilder {
 
+    @Override
+    void buildEntree() {
+        theMeal.setEntree("burger");
+    }
+
+    @Override
+    void buildSideDish() {
+        theMeal.setSide("fries");
+    }
+
+    @Override
+    void buildDrink() {
+        theMeal.setDrink("cola");
+    }
 }

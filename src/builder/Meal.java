@@ -30,7 +30,7 @@ public class Meal {
   /**
    * Set the side dish of this meal to the specified value.
    *
-   * @param entree Specified value to set the side dish of this meal to
+   * @param side Specified value to set the side dish of this meal to
    */
   public void setSide(String side) { 
     this.side = side;
@@ -39,7 +39,7 @@ public class Meal {
   /**
    * Set the drink of this meal to the specified value.
    *
-   * @param entree Specified value to set the drink of this meal to
+   * @param drink Specified value to set the drink of this meal to
    */
   public void setDrink(String drink) {
     this.drink = drink;

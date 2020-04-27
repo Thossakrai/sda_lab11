@@ -44,6 +44,10 @@ public class Cook {
    */
   public void constructMeal() {
     // Take the necessary steps
+    builder.createMeal();
+    builder.buildEntree();
+    builder.buildSideDish();
+    builder.buildDrink();
   }
 
 }

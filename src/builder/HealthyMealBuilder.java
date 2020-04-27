@@ -9,5 +9,19 @@ package builder;/*
  * @author boonjv
  */
 public class HealthyMealBuilder extends MealBuilder {
-    
+
+    @Override
+    void buildEntree() {
+        theMeal.setEntree("chicken sandwich");
+    }
+
+    @Override
+    void buildSideDish() {
+        theMeal.setSide("carrot sticks");
+    }
+
+    @Override
+    void buildDrink() {
+        theMeal.setDrink("diet cole");
+    }
 }

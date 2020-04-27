@@ -18,5 +18,15 @@ public abstract class MealBuilder {
   protected Meal theMeal;
 
   // Additional methods here
+  abstract void buildEntree();
+  abstract void buildSideDish();
+  abstract void buildDrink();
 
+  public Meal getMeal() {
+    return theMeal;
+  }
+
+  public void createMeal() {
+    theMeal = new Meal();
+  }
 }
